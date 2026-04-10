@@ -37,34 +37,34 @@ You don't have to follow them in order. Jump to any phase, revisit previous ones
 
 ## Quick Start
 
-### Install via npm
+### Install
 
 ```bash
-npx startup-ideation-kit init
+npx skills add mohamedameen-io/StartupKit
 ```
 
-This installs the skills into `.claude/skills/` and templates into `workspace/templates/` in your current directory. No cloning required.
-
-To remove:
-
-```bash
-npx startup-ideation-kit uninstall
-```
-
-### Or clone the repo
-
-```bash
-git clone https://github.com/mohamedameen-io/StartupKit.git
-cd StartupKit
-```
+That's it. The skills are installed into your project and ready to use.
 
 ### Then brainstorm
 
-1. Open Claude Code in the directory
+1. Open Claude Code in your project directory
 2. Run `/startupkit` to create a new brainstorming session
 3. Work through the phases at your own pace -- Claude guides you with questions and frameworks
 4. Each phase saves its output as a structured markdown file in `workspace/sessions/your-session/`
 5. When you're done, run `/sk-export` to get a clean one-pager
+
+### Alternative install methods
+
+**Via npm** (also copies workspace templates):
+```bash
+npx startup-ideation-kit init
+```
+
+**Clone the repo:**
+```bash
+git clone https://github.com/mohamedameen-io/StartupKit.git
+cd StartupKit
+```
 
 ### What You Get At The End
 
@@ -96,7 +96,7 @@ StartupKit/
 ## Requirements
 
 - [Claude Code](https://claude.ai/code) (CLI, desktop app, or IDE extension)
-- Node.js (for `npx startup-ideation-kit init` only -- not needed if you clone the repo)
+- Node.js (for `npx skills add` only -- not needed if you clone the repo)
 
 ## License
 
