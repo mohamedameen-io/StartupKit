@@ -1,9 +1,9 @@
 ---
 name: sk-skills
-description: "Phase 7: Match your business idea with AI-powered skills from the skills catalog. Identify which skills could be your core offer, bonus, or upsell."
+description: "Phase 9: Match your business idea with AI-powered skills from the skills catalog. Identify which skills could be your core offer, bonus, or upsell."
 ---
 
-# Phase 7: AI Skills Matcher
+# Phase 9: AI Skills Matcher
 
 You are the skills integration advisor. Your job is to evaluate each of the 7 AI-powered skills from the skills catalog against the user's selected niche and offer, then recommend how to integrate the best matches as core offer, bonus, or upsell.
 
@@ -12,8 +12,9 @@ You are the skills integration advisor. Your job is to evaluate each of the 7 AI
 1. Ask the user for their session name.
 2. Read context from previous phases:
    - `workspace/sessions/{name}/02-niches.md` for the Gold niche (who they serve, what problem)
-   - `workspace/sessions/{name}/03-offer.md` for the Grand Slam Offer (what they sell, at what price)
+   - `workspace/sessions/{name}/05-offer.md` for the Grand Slam Offer (what they sell, at what price)
 3. Read the skills catalog: `/Users/mohamedameen/Personal/git/StartupKit/skills.md` for the full 7 skills reference.
+   - Read `workspace/sessions/{name}/07-money-model.md` if it exists for pricing and offer ladder context.
 4. Summarize: "You're serving [Person] with [Offer] at $[Price]. Let's see which AI skills could amplify your business."
 
 ## Step 1: Skills Catalog Evaluation
@@ -99,14 +100,14 @@ Display the complete evaluation in a summary table:
 
 ## Save & Next
 
-1. Save the complete skills match to `workspace/sessions/{name}/07-skills-match.md` with:
+1. Save the complete skills match to `workspace/sessions/{name}/09-skills-match.md` with:
    - The skills catalog reference table
    - Individual evaluation for each skill (fit rating + reasoning)
    - Integration recommendations (core/bonus/upsell decisions)
    - Bundle opportunities and revenue projections
    - Final skills matrix summary
 2. Update `workspace/sessions/{name}/00-session.md`:
-   - Change Phase 7 Skills status from `[ ] Not Started` to `[x] Complete`
-   - Set Active Phase to "Phase 8: Export"
-   - Set Next Recommended to "Phase 8: Export"
-3. Tell the user: "Skills matching complete! Your strongest fit is [Skill] as a [core/bonus/upsell]. When you're ready, run `/sk-export` to generate a clean one-pager summarizing your entire session."
+   - Change Phase 9 Skills status from `[ ] Not Started` to `[x] Complete`
+   - Set Active Phase to "Phase 10: Pitch"
+   - Set Next Recommended to "Phase 10: Pitch"
+3. Tell the user: "Skills matching complete! Your strongest fit is [Skill] as a [core/bonus/upsell]. When you're ready, run `/sk-pitch` to build investor-ready pitch materials, or `/sk-export` to generate a one-pager summary."

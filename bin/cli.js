@@ -7,11 +7,14 @@ const SKILLS = [
   "startupkit",
   "sk-diverge",
   "sk-niche",
+  "sk-competitors",
+  "sk-positioning",
   "sk-offer",
   "sk-validate",
   "sk-money",
   "sk-leads",
   "sk-skills",
+  "sk-pitch",
   "sk-export",
 ];
 
@@ -19,11 +22,14 @@ const TEMPLATES = [
   "session-template.md",
   "diverge-template.md",
   "niche-template.md",
+  "competitors-template.md",
+  "positioning-template.md",
   "offer-template.md",
   "validation-template.md",
   "money-model-template.md",
   "lead-strategy-template.md",
   "skills-match-template.md",
+  "pitch-template.md",
   "one-pager-template.md",
 ];
 
@@ -105,7 +111,7 @@ function init() {
   Next steps:
     1. Open Claude Code in this directory
     2. Run /startupkit to create a new brainstorming session
-    3. Follow the phases: /sk-diverge -> /sk-niche -> /sk-offer -> ...
+    3. Follow the phases: /sk-diverge -> /sk-niche -> /sk-competitors -> ...
   `);
 }
 

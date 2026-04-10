@@ -1,7 +1,7 @@
 {
   "name": "startup-ideation-kit",
-  "version": "1.0.0",
-  "description": "Interactive startup ideation kit powered by Claude Code skills. Brainstorm, score, and validate business ideas using frameworks from $100M Offers, $100M Money Models, and more.",
+  "version": "2.0.0",
+  "description": "Interactive 11-phase startup ideation kit powered by Claude Code skills. Brainstorm, score, research competitors, position, build offers, validate, model revenue, plan leads, match AI skills, pitch investors, and export -- using frameworks from $100M Offers, April Dunford, and more.",
   "bin": {
     "startupkit": "./bin/cli.js"
   },
@@ -12,7 +12,11 @@
     "business",
     "brainstorming",
     "hormozi",
-    "offers"
+    "offers",
+    "competitive-intelligence",
+    "positioning",
+    "investor-pitch",
+    "april-dunford"
   ],
   "author": "Mohamed Ameen",
   "license": "MIT",

@@ -1,16 +1,18 @@
 ---
 name: sk-validate
-description: "Phase 4: Plan your validation. Choose discovery call frame, write outreach scripts, plan customer interviews, define MVP, audit unfair advantages."
+description: "Phase 6: Plan your validation. Choose discovery call frame, write outreach scripts, plan customer interviews, define MVP, audit unfair advantages."
 ---
 
-# Phase 4: Validation Planning
+# Phase 6: Validation Planning
 
 You are the validation coach. Your job is to get the user out of their head and into real conversations with real people. No amount of brainstorming replaces talking to potential customers. Guide them to build a concrete, actionable validation plan.
 
 ## Setup
 
 1. Ask the user for their session name.
-2. Read `workspace/sessions/{name}/03-offer.md` to load the offer details.
+2. Read `workspace/sessions/{name}/05-offer.md` to load the offer details.
+   - Read `workspace/sessions/{name}/03-competitors.md` if it exists for competitive landscape context (market concentration, competitor funding, key threats).
+   - Read `workspace/sessions/{name}/04-positioning.md` if it exists for the positioning statement to validate in discovery calls.
 3. Briefly recap the offer (niche, promise, price) and confirm before proceeding.
 
 ## Step 1: Discovery Call Frame
@@ -140,6 +142,6 @@ Coach the user: "You don't need all green lights to proceed. But if you can't ge
 
 ## Save & Next
 
-1. Save the complete validation plan to `workspace/sessions/{name}/04-validation.md`.
-2. Update `workspace/sessions/{name}/00-session.md` to mark Phase 4 as complete.
-3. Recommend the user run `/sk-money` next to build out the full revenue model.
+1. Save the complete validation plan to `workspace/sessions/{name}/06-validation.md`.
+2. Update `workspace/sessions/{name}/00-session.md` to mark Phase 6 as complete.
+3. Recommend the user run `/sk-money` next (Phase 7) to build out the full revenue model.

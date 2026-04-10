@@ -114,8 +114,8 @@ Confirm the selection: restate each as Person + Problem + Promise.
 
 2. Update `workspace/sessions/{name}/00-session.md`:
    - Change Phase 2 Niche status from `[ ] Not Started` to `[x] Complete`
-   - Set Active Phase to "Phase 3: Offer"
-   - Set Next Recommended to "Phase 3: Offer"
+   - Set Active Phase to "Phase 3: Competitors"
+   - Set Next Recommended to "Phase 3: Competitors"
    - Fill in the "Gold Niche" section with Person / Problem / Promise
 
-3. Tell the user: "Niche phase complete! Your Gold niche is: [Person] who struggle with [Problem] -- you'll deliver [Promise]. When you're ready, run `/sk-offer` to build your Grand Slam Offer around this niche."
+3. Tell the user: "Niche phase complete! Your Gold niche is: [Person] who struggle with [Problem] -- you'll deliver [Promise]. When you're ready, run '/sk-competitors' to research your competitive landscape, or skip to '/sk-offer' to build your Grand Slam Offer directly."

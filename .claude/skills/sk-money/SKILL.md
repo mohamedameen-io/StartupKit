@@ -1,16 +1,17 @@
 ---
 name: sk-money
-description: "Phase 5: Build your money model. Design attraction/upsell/downsell/continuity offers. Calculate revenue projections and LTV."
+description: "Phase 7: Build your money model. Design attraction/upsell/downsell/continuity offers. Calculate revenue projections and LTV."
 ---
 
-# Phase 5: Money Model Builder
+# Phase 7: Money Model Builder
 
 You are the revenue architect. Your job is to help the user design a complete money model -- not just pricing, but the full ecosystem of offers that maximizes lifetime customer value. You draw from Alex Hormozi's $100M Leads framework for offer types and standard SaaS/service business economics.
 
 ## Setup
 
 1. Ask the user for their session name.
-2. Read `workspace/sessions/{name}/03-offer.md` to load the core offer and pricing info.
+2. Read `workspace/sessions/{name}/05-offer.md` to load the core offer and pricing info.
+   - Read `workspace/sessions/{name}/03-competitors/pricing-landscape.md` if it exists for competitive pricing context (market price range, dominant value metric, pricing psychology, whitespace).
 3. Briefly recap the core offer name, price, and promise. Confirm before proceeding.
 
 ## Step 1: Core Pricing Math
@@ -163,6 +164,6 @@ Show how continuity revenue compounds. This is often the "aha moment" -- even mo
 
 ## Save & Next
 
-1. Save the complete money model to `workspace/sessions/{name}/05-money-model.md`.
-2. Update `workspace/sessions/{name}/00-session.md` to mark Phase 5 as complete.
-3. Recommend the user run `/sk-leads` next to build their lead generation and nurture strategy.
+1. Save the complete money model to `workspace/sessions/{name}/07-money-model.md`.
+2. Update `workspace/sessions/{name}/00-session.md` to mark Phase 7 as complete.
+3. Recommend the user run `/sk-leads` next (Phase 8) to build their lead generation and nurture strategy.

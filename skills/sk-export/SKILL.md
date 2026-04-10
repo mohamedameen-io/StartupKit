@@ -1,9 +1,9 @@
 ---
 name: sk-export
-description: "Export your brainstorming session as a clean, shareable one-pager summarizing all phases."
+description: "Phase 11: Export your brainstorming session as a clean, shareable one-pager summarizing all phases (Diverge, Niche, Competitors, Positioning, Offer, Validate, Money, Leads, Skills, Pitch)."
 ---
 
-# Phase 8: Session Export
+# Phase 11: Session Export
 
 You are the session synthesizer. Your job is to read all phase outputs from a brainstorming session and produce a clean, shareable one-pager that captures the key decisions and plans.
 
@@ -14,11 +14,17 @@ You are the session synthesizer. Your job is to read all phase outputs from a br
    - `00-session.md` -- session metadata and progress
    - `01-diverge.md` -- skills, passions, problems list
    - `02-niches.md` -- scored niche ideas and Gold selection
-   - `03-offer.md` -- Grand Slam Offer details
-   - `04-validation.md` -- validation plan and scripts
-   - `05-money-model.md` -- pricing and revenue model
-   - `06-lead-strategy.md` -- lead channels and nurture plan
-   - `07-skills-match.md` -- AI skill recommendations
+   - `03-competitors.md` -- competitive research summary
+   - `03-competitors/` -- full competitive deliverables (if exists)
+   - `04-positioning.md` -- positioning strategy summary
+   - `04-positioning/` -- full positioning deliverables (if exists)
+   - `05-offer.md` -- Grand Slam Offer details
+   - `06-validation.md` -- validation plan and scripts
+   - `07-money-model.md` -- pricing and revenue model
+   - `08-lead-strategy.md` -- lead channels and nurture plan
+   - `09-skills-match.md` -- AI skill recommendations
+   - `10-pitch.md` -- investor pitch summary and scorecard
+   - `10-pitch/` -- full pitch deliverables (if exists)
 3. For any files that don't exist, note the gap but proceed with what's available. Not every session completes all phases.
 
 ## Synthesis Rules
@@ -40,6 +46,18 @@ Generate the following document:
 - **Person:** [dream client avatar -- who they are, what they do]
 - **Problem:** [core pain in one sentence]
 - **Promise:** [<10 word transformation statement]
+
+## Competitive Landscape
+- **Competitors profiled:** [X]
+- **Market concentration:** [fragmented / consolidating / dominated]
+- **Key opportunity:** [single strongest from competitors report]
+- **Top threat:** [single biggest from competitors report]
+
+## Market Positioning
+- **Position:** [Moore statement -- 1 sentence]
+- **Onliness:** [Neumeier -- 1 sentence]
+- **Category:** [chosen market category]
+- **Value themes:** [2-3 themes as comma-separated list]
 
 ## The Grand Slam Offer
 - **Name:** "[Offer Name]"
@@ -71,8 +89,14 @@ Generate the following document:
 - **Bonus:** [skill name and how it integrates, or N/A]
 - **Upsell:** [skill name and how it integrates, or N/A]
 
+## Investor Pitch
+- **Pitch score:** [X]/80
+- **Strongest element:** [Traction / Team / Insight / Market]
+- **2-sentence pitch:** [the crystallized description]
+- **Full pitch materials:** See `10-pitch/` directory
+
 ---
-*Generated with StartupKit | Frameworks: $100M Offers, $100M Money Models, $100M Playbook*
+*Generated with StartupKit | Frameworks: $100M Offers, $100M Money Models, $100M Playbook, April Dunford Positioning, Neumeier Onliness*
 ```
 
 ## Handling Incomplete Sessions
@@ -80,13 +104,13 @@ Generate the following document:
 If some phases are missing:
 - Include every section that has data.
 - For missing sections, show: `**[Section]:** Not yet completed -- run /sk-[phase] to fill in.`
-- At the bottom, list remaining phases: "To complete this one-pager, run: /sk-validate, /sk-money"
+- At the bottom, list remaining phases: "To complete this one-pager, run: /sk-competitors, /sk-positioning, /sk-validate, /sk-money, /sk-pitch"
 
 ## Output
 
-1. Save the one-pager to `workspace/sessions/{name}/08-one-pager.md`.
+1. Save the one-pager to `workspace/sessions/{name}/11-one-pager.md`.
 2. Display the full one-pager in the conversation so the user can review it immediately.
 3. Update `workspace/sessions/{name}/00-session.md`:
-   - Change Phase 8 Export status from `[ ] Not Started` to `[x] Complete`
+   - Change Phase 11 Export status from `[ ] Not Started` to `[x] Complete`
    - Set Session Status to "Complete" (if all phases are done) or "Exported (partial)" if some phases are missing
-4. Tell the user: "Your one-pager is ready! It's saved at `workspace/sessions/{name}/08-one-pager.md`. You can share this with co-founders, mentors, or advisors for feedback."
+4. Tell the user: "Your one-pager is ready! It's saved at `workspace/sessions/{name}/11-one-pager.md`. You can share this with co-founders, mentors, or advisors for feedback."

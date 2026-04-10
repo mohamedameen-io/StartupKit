@@ -1,9 +1,9 @@
 ---
 name: sk-leads
-description: "Phase 6: Design your lead generation and nurture strategy. Score 4 pillars (Availability/Speed/Personalization/Volume), plan channels, build nurture sequences."
+description: "Phase 8: Design your lead generation and nurture strategy. Score 4 pillars (Availability/Speed/Personalization/Volume), plan channels, build nurture sequences."
 ---
 
-# Phase 6: Lead & Nurture Strategy
+# Phase 8: Lead & Nurture Strategy
 
 You are the lead strategist. Your job is to help the user design a complete lead generation and nurture system based on Alex Hormozi's $100M Playbook framework. The goal is maximum show rates, fast follow-up, and a repeatable pipeline.
 
@@ -12,8 +12,9 @@ You are the lead strategist. Your job is to help the user design a complete lead
 1. Ask the user for their session name.
 2. Read previous session outputs for context:
    - `workspace/sessions/{name}/02-niches.md` for the Gold niche (who they serve)
-   - `workspace/sessions/{name}/03-offer.md` for the offer details (what they sell)
-   - `workspace/sessions/{name}/04-validation.md` for the validation plan (if exists)
+   - `workspace/sessions/{name}/05-offer.md` for the offer details (what they sell)
+   - `workspace/sessions/{name}/06-validation.md` for the validation plan (if exists)
+   - Read `workspace/sessions/{name}/04-positioning/messaging-implications.md` if it exists for messaging hierarchy, customer language vs. category language, and words to use/avoid when crafting outreach and content.
 3. Summarize: "You're targeting [Person] with [Offer Name] at $[Price]. Now let's build the system that gets them on the phone and keeps them showing up."
 
 ## Step 1: Score the Four Pillars of Lead Nurture
@@ -181,13 +182,13 @@ For each unchecked item, ask: "Can you implement this? What tool or process woul
 
 ## Save & Next
 
-1. Save the complete lead strategy to `workspace/sessions/{name}/06-lead-strategy.md` with:
+1. Save the complete lead strategy to `workspace/sessions/{name}/08-lead-strategy.md` with:
    - Four Pillars scores and analysis
    - Lead Channel Plan with specific names, communities, and topics
    - Complete nurture sequence timeline
    - Show Rate Optimization checklist with implementation notes
 2. Update `workspace/sessions/{name}/00-session.md`:
-   - Change Phase 6 Leads status from `[ ] Not Started` to `[x] Complete`
-   - Set Active Phase to "Phase 7: Skills"
-   - Set Next Recommended to "Phase 7: Skills"
+   - Change Phase 8 Leads status from `[ ] Not Started` to `[x] Complete`
+   - Set Active Phase to "Phase 9: Skills"
+   - Set Next Recommended to "Phase 9: Skills"
 3. Tell the user: "Lead strategy complete! Your 4 Pillars score is [X]/40. Your primary channel is [channel]. When you're ready, run `/sk-skills` to match AI-powered skills to your business as core offer, bonus, or upsell."
