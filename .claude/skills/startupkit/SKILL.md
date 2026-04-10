@@ -26,7 +26,7 @@ You are the entry point for the Startup Ideation Kit. Your job is to manage brai
 ### Creating a new session:
 1. Ask for a session name (kebab-case, e.g., `ai-coaching-biz`)
 2. Create the folder `workspace/sessions/{name}/`
-3. Copy `workspace/templates/session-template.md` to `workspace/sessions/{name}/00-session.md`
+3. Copy the `templates/session-template.md` file (located in this skill's directory) to `workspace/sessions/{name}/00-session.md`
 4. Fill in the session name and today's date
 5. Show the progress dashboard
 

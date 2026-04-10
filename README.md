@@ -50,11 +50,11 @@ You don't have to follow them in order. Jump to any phase, revisit previous ones
 npx skills add mohamedameen-io/StartupKit
 ```
 
-That's it. The skills are installed into your project and ready to use.
+That's it. The skills are installed globally (`~/.claude/skills/`) and available in any Claude Code session.
 
 ### Then brainstorm
 
-1. Open Claude Code in your project directory
+1. Open Claude Code in any directory
 2. Run `/startupkit` to create a new brainstorming session
 3. Work through the phases at your own pace -- Claude guides you with questions and frameworks
 4. Each phase saves its output as a structured markdown file in `workspace/sessions/your-session/`
