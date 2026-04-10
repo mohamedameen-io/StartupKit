@@ -35,9 +35,32 @@ All credit for the underlying business frameworks goes to these creators. Startu
 
 You don't have to follow them in order. Jump to any phase, revisit previous ones, or skip what doesn't apply.
 
-## How It Works
+## Quick Start
 
-1. Open Claude Code in this project directory
+### Install via npm
+
+```bash
+npx startup-ideation-kit init
+```
+
+This installs the skills into `.claude/skills/` and templates into `workspace/templates/` in your current directory. No cloning required.
+
+To remove:
+
+```bash
+npx startup-ideation-kit uninstall
+```
+
+### Or clone the repo
+
+```bash
+git clone https://github.com/mohamedameen-io/StartupKit.git
+cd StartupKit
+```
+
+### Then brainstorm
+
+1. Open Claude Code in the directory
 2. Run `/startupkit` to create a new brainstorming session
 3. Work through the phases at your own pace -- Claude guides you with questions and frameworks
 4. Each phase saves its output as a structured markdown file in `workspace/sessions/your-session/`
@@ -73,7 +96,7 @@ StartupKit/
 ## Requirements
 
 - [Claude Code](https://claude.ai/code) (CLI, desktop app, or IDE extension)
-- That's it. No dependencies, no build step, no server.
+- Node.js (for `npx startup-ideation-kit init` only -- not needed if you clone the repo)
 
 ## License
 

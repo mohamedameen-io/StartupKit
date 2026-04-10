@@ -1,0 +1,28 @@
+{
+  "name": "startup-ideation-kit",
+  "version": "1.0.0",
+  "description": "Interactive startup ideation kit powered by Claude Code skills. Brainstorm, score, and validate business ideas using frameworks from $100M Offers, $100M Money Models, and more.",
+  "bin": {
+    "startupkit": "./bin/cli.js"
+  },
+  "keywords": [
+    "startup",
+    "ideation",
+    "claude-code",
+    "business",
+    "brainstorming",
+    "hormozi",
+    "offers"
+  ],
+  "author": "Mohamed Ameen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedameen-io/StartupKit.git"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "templates/"
+  ]
+}
