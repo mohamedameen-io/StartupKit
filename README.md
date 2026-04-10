@@ -77,4 +77,6 @@ StartupKit/
 
 ## License
 
-The code and skill definitions in this repository are open source. The business frameworks referenced belong to their respective creators (Alex Hormozi, Ali Abdaal, Taki Moore, etc.) and are used here for educational purposes.
+MIT License. See [LICENSE](LICENSE) for details.
+
+The skill definitions and templates in this repository are open source. The business frameworks referenced belong to their respective creators (Alex Hormozi, Ali Abdaal, Taki Moore, etc.) and are used here for educational purposes.
