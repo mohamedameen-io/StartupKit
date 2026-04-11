@@ -1,6 +1,6 @@
 {
   "name": "startup-ideation-kit",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Interactive 11-phase startup ideation kit powered by Claude Code skills. Brainstorm, score, research competitors, position, build offers, validate, model revenue, plan leads, match AI skills, pitch investors, and export -- using frameworks from $100M Offers, April Dunford, and more.",
   "bin": {
     "startupkit": "./bin/cli.js"
