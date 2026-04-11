@@ -13,9 +13,9 @@
 
 ## Key Competitors
 
-| Competitor | Stage | Strength | Weakness | Threat |
-|-----------|-------|----------|----------|--------|
-| [name] | [early/growth/mature] | [key strength] | [key weakness] | [H/M/L] |
+| Competitor | Stage | Moat | Strength | Weakness | Threat |
+|-----------|-------|------|----------|----------|--------|
+| [name] | [early/growth/mature] | [moat type] | [key strength] | [key weakness] | [H/M/L] |
 
 ## Strategic Opportunity
 
@@ -37,6 +37,22 @@
 - `03-competitors/competitive-matrix.md` -- Feature comparison
 - `03-competitors/pricing-landscape.md` -- Pricing analysis
 - `03-competitors/battle-cards/` -- Per-competitor battle cards
+
+## Moat Durability Assessment
+
+| Competitor | Primary Moat | Durability | Eroding Factor |
+|-----------|-------------|------------|----------------|
+| [name] | [network effects / switching costs / data moat / brand / scale / IP / regulatory / none] | [<1yr / 1-3yr / 3-5yr / 5+yr] | [what could erode it] |
+
+## GTM Whitespace
+
+- **Underexploited channel:** [channel] -- [why it's open]
+- **Content gap:** [topic area] -- [no competitor covers this well]
+
+## Competitor Dossiers (Deep tier only)
+
+- `03-competitors/competitor-dossiers/[name-1].md` -- [one-line summary]
+- `03-competitors/competitor-dossiers/[name-2].md` -- [one-line summary]
 
 ---
 

@@ -44,6 +44,8 @@ If `03-competitors.md` exists, extract:
 - Key competitors and their strengths/weaknesses
 - Pricing landscape (market price range, value metrics, whitespace)
 - Strategic opportunities and risks
+- If `03-competitors.md` contains a "Moat Durability Assessment" section, extract moat types and durability ratings — use these to identify positioning angles that exploit competitors' eroding moats
+- If `03-competitors.md` contains a "GTM Whitespace" section, extract underexploited channels — use these to inform the positioning strategy's channel differentiation
 
 If battle cards exist, read them to seed the competitive alternatives map.
 

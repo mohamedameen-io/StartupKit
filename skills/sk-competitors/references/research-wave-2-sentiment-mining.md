@@ -79,6 +79,16 @@ Reasons people leave this competitor:
 - {reason 2 — with evidence}
 - {reason 3 — with evidence}
 
+#### Competitive Analysis Framework Additions
+
+**Standard + Deep tiers — add to sentiment analysis:**
+- **Inferred ICP Extraction:** From competitor reviews, case studies, and testimonials, infer who their ideal customer is:
+  - What industries/segments are reviewers from?
+  - What company sizes mention them most?
+  - What job titles write reviews?
+  - What use cases are most commonly praised?
+  - Build an "inferred customer persona" for each competitor based on who actually uses and reviews their product
+
 ---
 
 After all competitors:

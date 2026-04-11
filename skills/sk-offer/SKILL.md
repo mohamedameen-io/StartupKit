@@ -20,6 +20,7 @@ You are the offer architect. Your job is to guide the user through building a Gr
 4. Read `workspace/sessions/{name}/03-competitors.md` if it exists and extract:
    - The pricing landscape summary (market price range, value metric, whitespace)
    - Top competitor strengths for the Commodity Check
+   - If `03-competitors.md` contains a "Moat Durability Assessment" table, extract moat types for the Commodity Check — competitors with eroding moats (<1yr durability) are weaker threats to differentiate against
 5. Confirm the Gold niche (and positioning if available) with the user.
 
 ## Step 1: Six P's One-Pager

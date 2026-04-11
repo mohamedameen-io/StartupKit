@@ -158,6 +158,22 @@ For EACH competitor:
 - **Tech bets:** {AI, mobile, API, integrations — what are they investing in?}
 - **Platform plays:** {trying to become a platform? Building ecosystem?}
 
+#### Competitive Analysis Framework Additions
+
+**All tiers — add to strategic signals:**
+- **Primary Moat Durability Signal:** Based on all evidence, how durable is each competitor's moat? (<1 year / 1-3 years / 3-5 years / 5+ years). What single factor most threatens it?
+
+**Standard + Deep tiers — add to strategic signals:**
+- **M&A Signals:** Acquisition history, strategic partnerships that suggest acquisition interest, investor profiles that suggest exit orientation
+- **Platform Ambitions:** API ecosystem growth, developer program investment, marketplace/app store plans, partner program evolution
+- **Revenue Model Evolution:** Historical pricing changes, new monetization experiments, freemium strategy shifts
+- **Customer Concentration Risk:** Evidence of reliance on specific segments, enterprise vs. SMB mix signals, geographic concentration
+
+**Deep tier — add to GTM analysis (C1):**
+- **Sales Motion Detail:** Self-serve vs. sales-led vs. PLG indicators (from job postings, pricing page design, demo request flows)
+- **Channel Saturation Score:** For each major acquisition channel, estimate competitor saturation (high/medium/low) based on ad presence, content volume, SEO footprint
+- **Partnership Ecosystem Map:** Technology partners, implementation partners, referral programs, co-marketing evidence
+
 ---
 
 After all competitors:

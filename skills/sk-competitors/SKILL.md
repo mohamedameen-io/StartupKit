@@ -99,6 +99,10 @@ This skill requires WebSearch for real data. If WebSearch is unavailable or deni
 
 > **Reference:** Read `references/research-principles.md` before starting any wave. It defines source quality tiers, cross-referencing rules, and how to handle data gaps.
 
+### Competitive Analysis Framework
+
+> **Reference:** Read `references/competitive-analysis-framework.md` for tier-scaled analytical dimensions that enrich competitor profiles and synthesis outputs across all research tiers. This framework adds moat assessment, strategic vulnerability mapping, and (for Deep tier) standalone competitor dossiers.
+
 ### Wave 1: Competitor Profiles + Pricing Intelligence
 
 > **Reference:** Read `references/research-wave-1-profiles-pricing.md` for agent templates.
@@ -191,16 +195,29 @@ Every deliverable file must start with a standardized header: `# {Title}: {produ
 - Key vulnerability to exploit
 - Churn signals (why their customers leave)
 
+**Standard + Deep — Strategic analysis sections in `competitors-report.md`:**
+Moat Durability Assessment table, GTM Whitespace analysis, and Strategic Vulnerability Map are added to the competitors-report. See `references/competitive-analysis-framework.md` for table formats.
+
+**Deep tier only — `workspace/sessions/{name}/03-competitors/competitor-dossiers/{competitor-name}.md`:**
+For the top 2-3 highest-threat competitors, produce a structured competitive dossier with deeper strategic intelligence. These go beyond battle cards to cover company foundation, product architecture, inferred ICP, GTM deconstruction, strategic vulnerabilities, and future trajectory. See `references/competitive-analysis-framework.md` for the 7-section dossier structure.
+
 ### Summary File
 
 After completing synthesis, generate a summary file at `workspace/sessions/{name}/03-competitors.md` containing:
 
 - **Executive Summary**: 5 sentences covering the competitive landscape
-- **Key Competitors** table: Name | Stage | Strength | Weakness | Threat Level (H/M/L)
+- **Key Competitors** table: Name | Stage | Moat | Strength | Weakness | Threat Level (H/M/L)
 - **Strategic Opportunity**: Single strongest opportunity with evidence
 - **Strategic Risk**: Single biggest risk with evidence  
 - **Pricing Landscape Summary**: Market price range, dominant value metric, pricing whitespace
 - **Full Deliverables**: Links to the files in `03-competitors/` subdirectory
+
+When research depth is Standard or Deep, also include:
+- **Moat Durability Assessment**: Table with moat type, durability, and eroding factor per competitor
+- **GTM Whitespace**: Underexploited channels and content gaps across the landscape
+
+When research depth is Deep, also include:
+- **Competitor Dossiers**: Links to `03-competitors/competitor-dossiers/` for top 2-3 threat competitors
 
 This summary file is what downstream phases (positioning, offer, pitch) will read. Keep it concise and data-dense.
 
@@ -266,6 +283,7 @@ Read only what you need for the current phase.
 | `research-synthesis.md` | After all waves complete | ~231 | How to synthesize + battle card template |
 | `research-scaling.md` | After intake, before Phase 2 | ~80 | Complexity scoring, tier definitions, wave configurations |
 | `verification-agent.md` | After synthesis | ~85 | Verification protocol, universal + skill-specific checks |
+| `competitive-analysis-framework.md` | Before starting any wave | ~120 | Tier-scaled analytical dimensions, dossier structure, section-to-wave mapping |
 
 ---
 

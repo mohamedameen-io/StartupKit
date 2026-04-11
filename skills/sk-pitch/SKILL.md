@@ -49,6 +49,7 @@ Before asking questions, ask the user for their session name, then read ALL avai
 **From Phase 3 (Competitors):**
 - `workspace/sessions/{name}/03-competitors.md` -- Competitive landscape summary
 - `workspace/sessions/{name}/03-competitors/battle-cards/` -- Per-competitor battle cards (for Q&A prep)
+- If `workspace/sessions/{name}/03-competitors/competitor-dossiers/` directory exists, read the dossiers for deeper competitive framing in Q&A preparation — dossiers contain strategic vulnerabilities and future trajectory that strengthen "why us" answers
 
 **From Phase 4 (Positioning):**
 - `workspace/sessions/{name}/04-positioning.md` -- Positioning summary with elevator pitch

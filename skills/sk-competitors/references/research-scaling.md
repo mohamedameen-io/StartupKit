@@ -69,12 +69,23 @@ The agent counts shown should reflect the actual numbers for this skill (see Wav
 
 **Total: 3 agents** (vs. 6 Standard), 2-3 search rounds per agent
 
+**Analytical Framework Additions (Light):**
+- Each competitor profile includes: moat type, key vulnerability, moat durability signal
+- Competitors-report includes condensed Moat Durability Assessment table
+- See `competitive-analysis-framework.md` for dimension definitions
+
 ### Standard (5-7 score, default)
 
 No changes to current wave structure:
 - Wave 1: 2 agents (A1, A2)
 - Wave 2: 2 agents (B1, B2)
 - Wave 3: 2 agents (C1, C2)
+
+**Analytical Framework Additions (Standard):**
+- Each competitor profile includes: moat type, key vulnerability, founding narrative, leadership signals, funding trajectory, IP signals, inferred ICP
+- Competitors-report includes: Moat Durability Assessment table, GTM Whitespace section, Strategic Vulnerability mapping
+- Battle cards enriched with strategic vulnerability section
+- See `competitive-analysis-framework.md` for dimension definitions
 
 **Total: 6 agents**, 3-4 search rounds per agent
 
@@ -94,6 +105,12 @@ No changes to current wave structure:
 - C1: Go-to-Market Analysis (unchanged)
 - C2: Strategic & Growth Signals (unchanged)
 - C3: Tech Stack & Product Analysis (NEW: analyze competitors' technology choices, API ecosystems, integration depth, and technical moats)
+
+**Analytical Framework Additions (Deep):**
+- All Standard additions apply
+- Produce standalone Competitor Dossiers for top 2-3 highest-threat competitors during synthesis
+- Dossiers follow the 7-section structure defined in `competitive-analysis-framework.md`
+- Output: `03-competitors/competitor-dossiers/{competitor-name}.md`
 
 **Total: 9 agents**, 5-6 search rounds per agent
 

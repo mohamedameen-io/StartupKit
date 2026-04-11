@@ -81,6 +81,22 @@ For EACH competitor, build a complete profile:
 ### Threat Level: Low / Medium / High
 - {why — with evidence}
 
+#### Competitive Analysis Framework Additions
+
+**All tiers — add to every competitor profile:**
+- **Moat Type:** What is their primary competitive moat? (network effects / switching costs / data moat / brand / scale / IP-patents / regulatory / none)
+- **Key Vulnerability:** What is their single biggest exploitable weakness? (be specific — not just "small team" but "3-person engineering team with no ML expertise attempting to compete on AI features")
+
+**Standard + Deep tiers — add to every competitor profile:**
+- **Founding Narrative:** When founded, by whom, original thesis, key pivots, any near-death experiences
+- **Leadership Signals:** Founder/CEO background, public thought leadership, conference presence, advisory network
+- **Funding Trajectory:** All rounds with dates, amounts, key investors, and stated use of funds
+- **IP Signals:** Patents filed/granted, trademarks, proprietary technology claims, open-source contributions
+
+**Deep tier — add to top 3 competitors:**
+- **Technical Architecture (external signals):** Tech stack (from job postings, BuiltWith, Wappalyzer), infrastructure choices, API maturity, integration depth
+- **Integration Ecosystem:** Supported integrations, marketplace/app store presence, developer program, API documentation quality
+
 ---
 
 After all profiles:

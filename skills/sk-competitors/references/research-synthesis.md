@@ -179,6 +179,83 @@ Based on the matrix, the clearest paths to differentiation:
 
 ---
 
+---
+
+## Strategic Analysis Framework (All Tiers)
+
+After completing the main deliverables, add these strategic analysis sections to `competitors-report.md`:
+
+### Moat Durability Assessment (All Tiers)
+
+Add this table to the competitors-report, drawing from moat data collected in Wave 1 profiles and Wave 3 strategic signals:
+
+```
+## Moat Durability Assessment
+
+| Competitor | Primary Moat | Durability | Eroding Factor | Confidence |
+|-----------|-------------|------------|----------------|------------|
+| {name} | {moat type} | {<1yr / 1-3yr / 3-5yr / 5+yr} | {what could erode it} | {H/M/L} |
+```
+
+Moat types: network effects, switching costs, data moat, brand, scale, IP/patents, regulatory, none.
+
+### GTM Whitespace (Standard + Deep)
+
+Add this section to the competitors-report, drawing from Wave 3 GTM analysis:
+
+```
+## GTM Whitespace
+
+**Underexploited channels:**
+- {channel} — {why it's open, which competitors ignore it}
+
+**Content gaps:**
+- {topic area} — {no competitor covers this well, estimated search demand}
+
+**Partnership opportunities:**
+- {partner type} — {untapped partnership that could provide distribution}
+```
+
+### Strategic Vulnerability Map (Standard + Deep)
+
+Add this section to the competitors-report:
+
+```
+## Strategic Vulnerability Map
+
+| Competitor | Vulnerability Type | Description | Exploitability | Confidence |
+|-----------|-------------------|-------------|---------------|------------|
+| {name} | {product/GTM/financial/operational/talent} | {specific vulnerability} | {H/M/L} | {H/M/L} |
+```
+
+---
+
+## Deep Tier: Competitor Dossiers
+
+When research depth is Deep, produce structured dossiers for the top 2-3 highest-threat competitors AFTER completing all other synthesis deliverables.
+
+### Assembly Protocol
+
+1. Identify top 2-3 "High" threat competitors from Wave 1 profiles
+2. Read ALL raw files in `raw/` for data on these competitors
+3. Also draw from the synthesized competitors-report, pricing-landscape, and battle cards
+4. Assemble each dossier following the 7-section structure in `competitive-analysis-framework.md`
+5. Save to `competitor-dossiers/{competitor-name}.md`
+
+### What Goes in a Dossier vs. a Battle Card
+
+| Aspect | Battle Card | Dossier |
+|--------|------------|---------|
+| **Length** | 1 page | 5-15 pages |
+| **Purpose** | Quick reference for sales/positioning | Strategic intelligence for founders making product/pricing/positioning decisions |
+| **Audience** | Anyone on the team | Founders, CRO, product leads |
+| **Update frequency** | Each research run | Quarterly deep refresh |
+| **Key question** | "How do I win against them?" | "What is their full strategic position and trajectory?" |
+
+Dossiers DO NOT replace battle cards. Both are produced for Deep-tier competitors.
+
+---
+
 ## Post-Synthesis Verification
 
 After writing all deliverables and battle cards, run the Verification Agent protocol. See `references/verification-agent.md` for the full process. The verification step checks all deliverables for unlabeled claims, internal contradictions, confidence rating consistency, and startup-competitors-specific coherence (battle card vs. report consistency, matrix vs. profiles alignment, pricing landscape vs. profiles consistency, cross-deliverable opportunity/risk traceability).

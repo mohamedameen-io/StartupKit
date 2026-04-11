@@ -24,6 +24,7 @@ const TEMPLATES = [
   "diverge-template.md",
   "niche-template.md",
   "competitors-template.md",
+  "competitive-analysis-template.md",
   "positioning-template.md",
   "offer-template.md",
   "validation-template.md",
