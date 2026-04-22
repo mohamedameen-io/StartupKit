@@ -122,4 +122,12 @@
 
 ---
 
+## Board Counsel
+
+> "[Most relevant quote]" — {Founder Name}, {Board Name}
+>
+> **The Board's view:** {1-2 sentence synthesis of what the relevant board would say about this business}
+
+---
+
 *Generated from StartupKit session: [session-name]*
