@@ -111,26 +111,26 @@ Each of the 11 phases is a row in `phases[]`. `session.activePhase` tracks the c
 
 ```mermaid
 flowchart TB
-    subgraph Repo [Repository]
-        skillsDir[skills/]
-        templatesDir[templates/]
+    subgraph Repo ["Repository"]
+        skillsDir["skills/"]
+        templatesDir["templates/"]
         contractJson[".install-contract.json"]
-        contractsMd[CONTRACTS.md]
+        contractsMd["CONTRACTS.md"]
     end
 
-    subgraph CLI [bin/cli.js]
-        init[init --upgrade --force --dry-run --verbose]
-        doctor[doctor]
-        uninstall[uninstall]
+    subgraph CLI ["bin/cli.js"]
+        init["init / upgrade / force / dry-run / verbose"]
+        doctor["doctor"]
+        uninstall["uninstall"]
     end
 
-    subgraph Home [~/.claude/skills]
-        installedSkills["<skill>/SKILL.md + references/"]
+    subgraph Home ["~/.claude/skills"]
+        installedSkills["&lt;skill&gt;/SKILL.md + references/"]
         installedTemplates["startupkit/templates/*.md"]
         manifest[".install-manifest.json"]
     end
 
-    subgraph Session [workspace/sessions/{name}]
+    subgraph Session ["workspace/sessions/#123;name#125;"]
         sessionMd["00-session.md (YAML frontmatter)"]
         phaseArtifacts["01-..11-*.md artifacts"]
     end
