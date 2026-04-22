@@ -1,0 +1,30 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  doctor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run doctor
+        run: node bin/cli.js doctor
+
+      - name: Smoke install dry-run
+        run: |
+          export HOME="$RUNNER_TEMP/startupkit-home"
+          mkdir -p "$HOME"
+          node bin/cli.js init --dry-run --upgrade
