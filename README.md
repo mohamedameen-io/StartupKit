@@ -1,10 +1,18 @@
 # StartupKit
 
+<div align="center">
+
 **A deterministic, phase-sequenced founder-board orchestrator for Claude Code business ideation.**
 
-Node 18+ · MIT License · Claude Code skills · Session-state in YAML frontmatter · Repo-contract-enforced
+[![Node 18+](https://img.shields.io/badge/node-18+-brightgreen.svg)](https://nodejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Phases](https://img.shields.io/badge/phases-11-informational)](#phases)
+[![Claude Code skills](https://img.shields.io/badge/Claude_Code-skills-8A2BE2)](skills/)
+[![Contract-enforced](https://img.shields.io/badge/install-contract_enforced-success)](CONTRACTS.md)
 
-Why StartupKit · Phases · Architecture · Install · Contracts · CLI · Non-goals
+[Why StartupKit](#why-use-startupkit) · [Phases](#phases) · [Architecture](#architecture) · [Install](#install) · [Contracts](CONTRACTS.md) · [CLI](#cli-reference) · [Non-goals](#non-goals)
+
+</div>
 
 ---
 
