@@ -1,0 +1,32 @@
+{
+  "contractVersion": 1,
+  "skills": [
+    "sk-competitors",
+    "sk-diverge",
+    "sk-export",
+    "sk-leads",
+    "sk-money",
+    "sk-niche",
+    "sk-offer",
+    "sk-pitch",
+    "sk-positioning",
+    "sk-skills",
+    "sk-validate",
+    "startupkit"
+  ],
+  "templates": [
+    "competitive-analysis-template.md",
+    "competitors-template.md",
+    "diverge-template.md",
+    "lead-strategy-template.md",
+    "money-model-template.md",
+    "niche-template.md",
+    "offer-template.md",
+    "one-pager-template.md",
+    "pitch-template.md",
+    "positioning-template.md",
+    "session-template.md",
+    "skills-match-template.md",
+    "validation-template.md"
+  ]
+}
